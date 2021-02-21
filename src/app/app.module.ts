@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 import { FormComponent } from './form/form/form.component';
 import { TemplateDrivenComponent } from './form/form/components/template-driven/template-driven.component';
@@ -21,9 +24,10 @@ import { ReactiveFormsComponent } from './form/form/components/reactive-forms/re
     AppRoutingModule,
     RouterModule,
     ReactiveFormsModule,
-    //MatFormFieldModule,
+    MatFormFieldModule,
     FormsModule,
-    //MatInputModule
+    BrowserAnimationsModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
