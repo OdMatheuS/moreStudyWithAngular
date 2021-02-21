@@ -10,14 +10,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 
 import { FormComponent } from './form/form/form.component';
-import { TemplateDrivenComponent } from './form/form/components/template-driven/template-driven.component';
-import { ReactiveFormsComponent } from './form/form/components/reactive-forms/reactive-forms.component';
+import { FormModule } from './form/form/form.module';
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    TemplateDrivenComponent,
-    ReactiveFormsComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,6 +25,7 @@ import { ReactiveFormsComponent } from './form/form/components/reactive-forms/re
     FormsModule,
     BrowserAnimationsModule,
     MatInputModule,
+    FormModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
