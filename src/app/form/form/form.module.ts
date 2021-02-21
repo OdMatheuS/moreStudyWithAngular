@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 import { TemplateDrivenComponent } from './components/template-driven/template-driven.component';
 import { ReactiveFormsComponent } from './components/reactive-forms/reactive-forms.component';
@@ -13,9 +15,8 @@ import { ReactiveFormsComponent } from './components/reactive-forms/reactive-for
     CommonModule,
     RouterModule,
     ReactiveFormsModule,
-    //MatFormFieldModule,
-    FormsModule,
-    //MatInputModule
+    MatFormFieldModule,
+    MatInputModule
   ]
 })
 export class FormModule { }
