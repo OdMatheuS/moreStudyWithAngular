@@ -16,7 +16,8 @@ import { ReactiveFormsComponent } from './components/reactive-forms/reactive-for
     RouterModule,
     ReactiveFormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    FormsModule
   ]
 })
 export class FormModule { }
