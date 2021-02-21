@@ -8,9 +8,9 @@ import { Component, OnInit } from "@angular/core";
 				<span>foobar</span>
 			</p>
 		</div>
-    <nav>      
-        <button routerLink=""  routerLinkActive="active" mat-button type="button">Back to Home</button>
-    </nav>
+		<nav>
+			<button routerLink="" routerLinkActive="active" mat-button type="button">Back to Home</button>
+		</nav>
 	`,
 	styles: [
 		`
